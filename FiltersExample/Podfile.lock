@@ -7,8 +7,12 @@ PODS:
   - FastttCamera/Filters (0.3.1):
     - FastttCamera/Default
     - GPUImage (~> 0.1.0)
-  - FBSnapshotTestCase (1.5)
-  - GPUImage (0.1.6)
+  - FBSnapshotTestCase (2.0.3):
+    - FBSnapshotTestCase/SwiftSupport
+  - FBSnapshotTestCase/Core (2.0.3)
+  - FBSnapshotTestCase/SwiftSupport (2.0.3):
+    - FBSnapshotTestCase/Core
+  - GPUImage (0.1.7)
   - Masonry (0.6.1)
   - OCMock (3.1.2)
   - Specta (0.4.0)
@@ -28,11 +32,11 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Expecta: 8c507baf13211207b1e9d0a741480600e6b4ed15
   Expecta+Snapshots: 4a0b46d3ba755bd43dffa7d53e4585fc6cbfe8cd
-  FastttCamera: dfcec6e490be93130123309fdecc7cf444081470
-  FBSnapshotTestCase: 26f32d8fa9eb30e9f09712ecfb097808bc79b898
-  GPUImage: 4675ce4a5370ca92fcea8623b2a08b8f0c51b940
+  FastttCamera: 4251a15ea5e7e3d3f70a804c872a281bc9bf55bc
+  FBSnapshotTestCase: d0eeca6bf87958e088b254396ae66873f971cfb1
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
   Masonry: 4972309f2f134de9dd312f4dc4a21359b50e6caa
   OCMock: a10ea9f0a6e921651f96f78b6faee95ebc813b92
   Specta: a353759f073ffcc0a365b782fe4aaeac064c03c6
 
-COCOAPODS: 0.36.3
+COCOAPODS: 0.34.2
